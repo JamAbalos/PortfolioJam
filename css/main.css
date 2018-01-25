@@ -112,20 +112,32 @@ nav.black ul li a:hover {
 .about-me {
   width: 100%;
   height: 100vh;
-  padding: 100px 20% 0 20%;
+  padding: 150px 20% 0 20%;
   background-size: cover;
 }
 
 .about-me h1 {
-  font-size: 30pt;
+  font-size: 22pt;
 }
 
 .about-me p {
-  font-size: 20pt;
+  font-size: 12pt;
 }
 
 /* PROJECTS */
-/* CONTENT */
+
+.project-list {
+  width: 100%;
+  background-size: cover;
+}
+
+.unit img {
+  width: 100%;
+  padding: 3px 5px;
+}
+
+
+/* CONTACT */
 .contact-me {
   width: 100%;
   height: 100vh;
@@ -134,11 +146,53 @@ nav.black ul li a:hover {
 }
 
 .contact-me h1 {
-  font-size: 30pt
+  font-size: 22pt
 }
 
 .contact-me p {
-  font-size: 20pt;
+  font-size: 12pt;
 }
+
+/*TABLET SIZE*/
+@media only screen and (min-width: 38em) {
+
+    .about-me h1 {
+    font-size: 26pt;
+    }
+
+    .about-me p {
+    font-size: 16pt;
+    }
+
+    .contact-me h1 {
+    font-size: 26pt
+    }
+
+    .contact-me p {
+    font-size: 16pt;
+    }
+}
+
+/* WEB SIZE*/
+@media only screen and (min-width: 60em) {
+
+    .about-me h1 {
+    font-size: 30pt;
+    }
+
+    .about-me p {
+    font-size: 20pt;
+    }
+
+    .contact-me h1 {
+    font-size: 30pt
+    }
+
+    .contact-me p {
+    font-size: 20pt;
+    }
+
+}
+
 
 /* FOOTER */
