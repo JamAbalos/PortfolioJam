@@ -43,14 +43,14 @@ nav {
   left: 0;
   width: 100%;
   height: 100px;
-  padding: 10px 100px;
+  padding: 10px 50px;
   box-sizing: border-box;
   transition: .5s;
 
 }
 
 nav.black {
-  background: #b2eaff;
+  background: #ffffffba;
   height: 60px;
   padding: 10px 50px;
 }
@@ -69,16 +69,17 @@ nav.black .logo img {
 }
 
 nav ul {
-  float: right;
-  margin: 0;
+  margin-top: 15px;
   padding: 0;
-  display: flex;
+  display: none;
 }
 
 nav ul li {
   list-style: none;
-  display: inline-block;
   padding: 20px;
+  margin-top: 5px;
+  text-align: center;
+  background-color: #ffffffba;
 }
 
 nav.black ul li {
@@ -91,11 +92,13 @@ nav ul li a {
   padding: 5px 20px;
   text-decoration: none;
   text-transform: uppercase;
+  transition: 0.5s;
 }
 
 nav.black ul li a {
-  color: #fff;
+  color: #000;
   line-height: 60px;
+  transition: .5s;
 }
 
 nav ul li a:hover {
@@ -103,7 +106,25 @@ nav ul li a:hover {
 }
 
 nav.black ul li a:hover {
+  color: #67727A;
+}
+
+.toggle {
+  width: 100%;
+  padding: 5px;
+  text-align: right;
+  box-sizing: border-box;
   color: #000;
+  font-size: 25px;
+  transition: .5s;
+}
+
+.toggle:hover {
+  color: #67727A;
+}
+
+.active {
+  display: block;
 }
 
 
@@ -113,21 +134,25 @@ nav.black ul li a:hover {
   width: 100%;
   height: 100vh;
   padding: 150px 20% 0 20%;
+  background: url("../images/banner.jpg") center fixed;
   background-size: cover;
 }
 
 .about-me h1 {
   font-size: 22pt;
+  font-weight: 400;
 }
 
 .about-me p {
   font-size: 12pt;
+  font-weight: 200;
 }
 
 /* PROJECTS */
 
 .project-list {
   width: 100%;
+  padding: 15% 0;
   background-size: cover;
 }
 
@@ -146,15 +171,37 @@ nav.black ul li a:hover {
 }
 
 .contact-me h1 {
-  font-size: 22pt
+  font-size: 22pt;
+  font-weight: 400;
 }
 
 .contact-me p {
   font-size: 12pt;
+  font-weight: 200;
 }
 
 /*TABLET SIZE*/
-@media only screen and (min-width: 38em) {
+@media only screen and (min-width: 720px) {
+
+    nav {
+    padding: 10px 100px;
+    }
+
+    nav ul {
+    margin: 0;
+    float: right;
+    display: flex;
+    }
+
+    nav ul li {
+    margin-top: 0; 
+    display: inline-block;
+    background-color: transparent;
+    }
+
+    .toggle {
+      display: none;
+    }
 
     .about-me h1 {
     font-size: 26pt;
@@ -196,3 +243,9 @@ nav.black ul li a:hover {
 
 
 /* FOOTER */
+
+footer p {
+  font-size: 10pt;
+  text-align: center;
+  padding: 10px;
+}
