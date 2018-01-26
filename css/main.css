@@ -139,11 +139,13 @@ nav.black ul li a:hover {
 }
 
 .about-me h1 {
+  color: #fff;
   font-size: 22pt;
   font-weight: 200;
 }
 
 .about-me p {
+  color: #fff;
   font-size: 12pt;
   font-weight: 200;
 }
