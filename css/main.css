@@ -152,7 +152,7 @@ nav.black ul li a:hover {
 
 .project-list {
   width: 100%;
-  padding: 15% 0;
+  padding: 5px 2px;
   background-size: cover;
 }
 
@@ -209,6 +209,10 @@ nav.black ul li a:hover {
 
     .about-me p {
     font-size: 16pt;
+    }
+
+    .project-list {
+      padding: 15% 0;
     }
 
     .contact-me h1 {
