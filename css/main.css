@@ -36,6 +36,18 @@ body {
   margin: 0;
 }
 
+/* TEXT */
+
+h1 {
+  font-size: 22pt;
+  font-weight: 200;
+}
+
+p {
+  font-size: 12pt;
+  font-weight: 200;
+}
+
 /* NAVIGATION */
 nav {
   position: fixed;
@@ -43,7 +55,7 @@ nav {
   left: 0;
   width: 100%;
   height: 100px;
-  padding: 10px 50px;
+  padding: 10px 30px;
   box-sizing: border-box;
   transition: .5s;
 
@@ -52,7 +64,7 @@ nav {
 nav.black {
   background: #ffffffba;
   height: 60px;
-  padding: 10px 50px;
+  padding: 10px 25px;
 }
 
 nav .logo {
@@ -140,14 +152,10 @@ nav.black ul li a:hover {
 
 .about-me h1 {
   color: #fff;
-  font-size: 22pt;
-  font-weight: 200;
 }
 
 .about-me p {
   color: #fff;
-  font-size: 12pt;
-  font-weight: 200;
 }
 
 /* PROJECTS */
@@ -168,18 +176,25 @@ nav.black ul li a:hover {
 .contact-me {
   width: 100%;
   height: 100vh;
-  padding: 100px 20% 0 20%;
+  padding: 100px 20%;
   background-size: cover;
 }
 
-.contact-me h1 {
-  font-size: 22pt;
-  font-weight: 200;
+.resume-box {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
 }
 
-.contact-me p {
-  font-size: 12pt;
-  font-weight: 200;
+/* PROJECT PAGES */
+
+.project-img {
+  width: 100%;
+}
+
+.project-info {
+  width: 100%;
+  padding: 100px 20%;
 }
 
 /*TABLET SIZE*/
@@ -187,6 +202,10 @@ nav.black ul li a:hover {
 
     nav {
     padding: 10px 100px;
+    }
+
+    nav.black {
+    padding: 10px 50px;
     }
 
     nav ul {
@@ -205,11 +224,11 @@ nav.black ul li a:hover {
       display: none;
     }
 
-    .about-me h1 {
+    h1 {
     font-size: 26pt;
     }
 
-    .about-me p {
+    p {
     font-size: 16pt;
     }
 
@@ -217,31 +236,20 @@ nav.black ul li a:hover {
       padding: 15% 0;
     }
 
-    .contact-me h1 {
-    font-size: 26pt
+    .resume-box {
+    font-size: 40px;
     }
 
-    .contact-me p {
-    font-size: 16pt;
-    }
 }
 
 /* WEB SIZE*/
 @media only screen and (min-width: 60em) {
 
-    .about-me h1 {
+    h1 {
     font-size: 30pt;
     }
 
-    .about-me p {
-    font-size: 20pt;
-    }
-
-    .contact-me h1 {
-    font-size: 30pt
-    }
-
-    .contact-me p {
+    p {
     font-size: 20pt;
     }
 
@@ -251,6 +259,7 @@ nav.black ul li a:hover {
 /* FOOTER */
 
 footer p {
+  margin-top: 10px;
   font-size: 10pt;
   text-align: center;
   padding: 10px;
