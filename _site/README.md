@@ -1,2 +1,0 @@
-# PortfolioJam
-My Portfolio Website.

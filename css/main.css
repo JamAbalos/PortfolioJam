@@ -145,7 +145,7 @@ nav.black ul li a:hover {
 .about-me {
   width: 100%;
   height: 100vh;
-  padding: 150px 20% 0 20%;
+  padding: 350px 20% 0 20%;
   background: url("../images/banner.jpg") fixed;
   background-size: cover;
 }
