@@ -223,6 +223,10 @@ nav.black ul li a:hover {
   font-size: 30px;
 }
 
+.resume-icon {
+  color:#fff;
+}
+
 /* PROJECT PAGES */
 
 .project-img {
