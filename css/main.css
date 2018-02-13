@@ -95,6 +95,10 @@ nav ul li {
   background-color: #ffffffba;
 }
 
+nav ul li:hover {
+  background-color: #fff;
+}
+
 nav.black ul li {
   padding: 0px 20px;
 }
@@ -224,11 +228,11 @@ nav.black ul li a:hover {
 }
 
 .resume-icon {
-  color:#67727A;
+  color: #67727A;
 }
 
 .resume:hover {
-  color:#000;
+  color: #000;
 }
 
 /* PROJECT PAGES */
