@@ -269,6 +269,10 @@ nav.black ul li a:hover {
     display: inline-block;
     background-color: transparent;
     }
+  
+    nav ul li:hover {
+    background-color: transparent;
+    }
 
     .toggle {
       display: none;
