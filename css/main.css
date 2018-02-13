@@ -224,7 +224,11 @@ nav.black ul li a:hover {
 }
 
 .resume-icon {
-  color:#fff;
+  color:#67727A;
+}
+
+.resume:hover {
+  color:#000;
 }
 
 /* PROJECT PAGES */
