@@ -287,7 +287,7 @@ nav.black ul li a:hover {
     }
 
     .about-me {
-      padding: 350px 20% 0 20%;
+      padding: 20%;
     }
 
     .project-list {
@@ -299,7 +299,7 @@ nav.black ul li a:hover {
     }
 
     .contact-me {
-      padding: 250px 20%;
+      padding: 15% 20%;
     }
 
     .resume-box {
@@ -317,6 +317,14 @@ nav.black ul li a:hover {
 
     p {
     font-size: 20pt;
+    }
+
+    .about-me {
+      padding: 350px 20% 0 20%;
+    }
+
+    .contact-me {
+      padding: 250px 20%;
     }
 
 }
