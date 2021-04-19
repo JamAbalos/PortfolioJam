@@ -212,6 +212,11 @@ nav.black ul li a:hover {
   padding-top: 30%;
 }
 
+.logopage {
+  background-color: white;
+  background-size: cover;
+}
+
 
 /* CONTACT */
 .contact-me {
