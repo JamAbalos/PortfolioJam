@@ -216,6 +216,9 @@ nav.black ul li a:hover {
   padding: 0 300px 100px;
 }
 
+.logodesc {
+  padding: 20px;
+}
 
 /* CONTACT */
 .contact-me {
